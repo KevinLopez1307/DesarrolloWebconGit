@@ -3,57 +3,52 @@
     flex-wrap: wrap;
     justify-content: center;
     list-style: none;
-    background-color: rgb(4, 205, 255);
-
+    background-color: rgb(92, 197, 201);
 }
 
 #nav li{
     margin: 5px;
     padding: 10px 15px;
-
 }
 
 #nav li:hover{
-    background-color: aquamarine;
+    background-color: blueviolet;
 }
 
-#nav a {
+#nav a{
     text-decoration: none;
 }
-
-/* Modelo de caja */
+/* modelo de caja */
 .padre{
-    background-color: aqua;
+    background-color: red;
     padding: 20px;
-    border: 10px;
 }
-
 .hijo{
-    background-color: blueviolet ;
+    background-color: aqua;
     padding: 100px;
-    border: 10px;
+    border: 10px solid blue;
+    margin: 30px;
 }
-/* Componentes */
+/* componente */
 #contenedor{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: chocolate;
+    background-color: brown;
+    gap:1rem;
 }
 .card{
-   width: 200px;
-   background-color: burlywood;
-   border-radius: 10px;
-   text-align: center;
-   box-shadow: 0 4px 8px black;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px black;
 }
-
 .card img{
-  width: 100%;
-  border-radius: 8px;
-  
+    width: 100%;
+    border-radius: 8px;
 }
 .card p{
-  color: greenyellow;
-  background-color: black;
+    color: #fff;
+    background-color: black;
 }
