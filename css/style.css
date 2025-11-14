@@ -34,7 +34,7 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: brown;
+    background-color: purple;
     gap:1rem;
 }
 .card{
@@ -51,4 +51,37 @@
 .card p{
     color: #fff;
     background-color: black;
+}
+
+/*      Carrito      */
+#carritoLista{
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid purple;
+    background-color: white;
+
+}
+
+/* conc*/
+pre{
+    text-align: left;
+    background-color: black;
+    padding: 1rem;
+    border-radius: 10px;
+    width: 80%;
+    color: greenyellow;
+    text-decoration-color: black;
+}
+
+#bodyTry{
+    display: flex;
+    flex-direction: column; /*desplega como columna*/
+    align-items: center;
+
+}
+
+#mensaje{
+    font-weight: bold;
+    color: blueviolet;
 }
